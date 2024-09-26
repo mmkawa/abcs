@@ -1,0 +1,9 @@
+models:
+  Org:
+    softDeletes
+
+controllers:
+  Org:
+    resource
+    
+seeders: Org

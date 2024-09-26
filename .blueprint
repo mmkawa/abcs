@@ -1,0 +1,19 @@
+created:
+    - app/Http/Controllers/OrgController.php
+    - database/factories/OrgFactory.php
+    - database/migrations/2024_09_26_074759_create_orgs_table.php
+    - app/Models/Org.php
+    - database/seeders/OrgSeeder.php
+    - tests/Feature/Http/Controllers/OrgControllerTest.php
+    - app/Http/Requests/OrgStoreRequest.php
+    - app/Http/Requests/OrgUpdateRequest.php
+    - resources/views/org/index.blade.php
+    - resources/views/org/create.blade.php
+    - resources/views/org/show.blade.php
+    - resources/views/org/edit.blade.php
+updated:
+    - routes/web.php
+models:
+    Employee: {  }
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string nullable' }
+    Org: { softdeletes: softDeletes }
